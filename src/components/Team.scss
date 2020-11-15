@@ -1,0 +1,54 @@
+.teams {
+  margin-bottom: 5em;
+  margin: 1rem auto 5rem auto;
+  padding: 0;
+}
+.team {
+  position: relative;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1.2em;
+  color: #16161d;
+}
+.team-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: background-color 0.35s;
+  border-radius: 0.5em;
+  margin: 1rem 0;
+  padding: 1.5rem;
+  position: relative;
+  cursor: pointer;
+  &:hover {
+    background: rgba(30, 144, 255, 0.1);
+    transition-duration: 0.1s;
+  }
+}
+@media (max-width: 800px) {
+  .team-container {
+    flex-direction: column;
+  }
+}
+.image-wrapper {
+    text-align: center;
+  flex: 100%;
+}
+.flex-text {
+  flex: 100%;
+  display: block;
+}
+.image-round {
+  align-self: center;
+  max-width: 9em;
+  width: 100%;
+  display: block;
+  height: auto;
+  border-radius: 2em;
+  margin-right: 1em;
+}
+.person {
+  margin-right: 0;
+  text-emphasis: normal;
+}

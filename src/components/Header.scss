@@ -1,0 +1,40 @@
+.header-wrapper {
+  box-sizing: border-box;
+  max-width: 50em;
+  padding-top: 3em;
+  margin: 0 auto;
+  text-align: center;
+  font: 100%/1.5 Nunito, sans-serif;
+  color: "#16161D";
+  text-rendering: optimizeLegibility;
+  header {
+    color: inherit;
+    text-align: inherit;
+  }
+}
+.container {
+  padding: 1.5em 0;
+  margin: 0 1.5em;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.mascot-img {
+  width: 8em;
+  height: 8em;
+  margin: 0 1.5rem 0 0;
+  border-radius: 50%;
+  user-select: none;
+  border-style: none;
+  text-align: left;
+}
+.title {
+  text-align: left;
+  flex: 1;
+  font-size: 2em;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0;
+  color: inherit;
+}
