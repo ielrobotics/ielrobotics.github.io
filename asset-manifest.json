@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.bfaa37da.chunk.css",
-    "main.js": "/static/js/main.877db1ec.chunk.js",
-    "main.js.map": "/static/js/main.877db1ec.chunk.js.map",
+    "main.js": "/static/js/main.baa3e7cb.chunk.js",
+    "main.js.map": "/static/js/main.baa3e7cb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c4fb9f3f.js",
     "runtime-main.js.map": "/static/js/runtime-main.c4fb9f3f.js.map",
     "static/js/2.69847580.chunk.js": "/static/js/2.69847580.chunk.js",
@@ -14,6 +14,7 @@
     "static/js/2.69847580.chunk.js.LICENSE.txt": "/static/js/2.69847580.chunk.js.LICENSE.txt",
     "static/media/Sponsorluk_Dosyası.1d516488.pdf": "/static/media/Sponsorluk_Dosyası.1d516488.pdf",
     "static/media/bulky.043afdb4.png": "/static/media/bulky.043afdb4.png",
+    "static/media/downarrow.f6e35088.svg": "/static/media/downarrow.f6e35088.svg",
     "static/media/instagram.edf72318.png": "/static/media/instagram.edf72318.png",
     "static/media/tba.14b99617.svg": "/static/media/tba.14b99617.svg",
     "static/media/youtube.66c7f5b1.png": "/static/media/youtube.66c7f5b1.png"
@@ -22,6 +23,6 @@
     "static/js/runtime-main.c4fb9f3f.js",
     "static/js/2.69847580.chunk.js",
     "static/css/main.bfaa37da.chunk.css",
-    "static/js/main.877db1ec.chunk.js"
+    "static/js/main.baa3e7cb.chunk.js"
   ]
 }
