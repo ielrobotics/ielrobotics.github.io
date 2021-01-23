@@ -26,6 +26,6 @@ If you want to run build. `npm install -g serve` or `yarn global add serve`.<br>
 
 `firebase deploy` to deploy to firebase
 
-##Important:
-###If you will use firebase.
+## Important:
+### If you will use firebase.
 `You need to create firebase folder in /src folder. In Firebase folder you should create fire.js. You should paste your firebase config details google gave you.`
