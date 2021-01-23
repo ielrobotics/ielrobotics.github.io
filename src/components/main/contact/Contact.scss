@@ -6,6 +6,7 @@
   outline: none;
 }
 .gmail-wrapper {
+  transition: background-color 1s;
   cursor: pointer;
   margin: auto;
   --blue: #1e90ff;
@@ -32,6 +33,7 @@
   outline: none;
 }
 .instagram-wrapper {
+  transition: background-color 1s;
   cursor: pointer;
   margin: auto;
   --blue: #1e90ff;
@@ -61,6 +63,7 @@
   border-radius: 50%;
   width: 6em;
   height: 6em;
+  transition: background-color 1s;
   box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
   &:hover {
     background: var(--blue-a);
@@ -75,6 +78,7 @@
   outline: none;
 }
 .linkedin-wrapper {
+  transition: background-color 1s;
   cursor: pointer;
   margin: auto;
   --blue: #1e90ff;
@@ -104,6 +108,7 @@
   width: 6em;
   height: 6em;
   box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+  transition: background-color 1s;
   &:hover {
     background: var(--blue-a);
     color: var(--blue);
@@ -124,6 +129,7 @@
   border-radius: 50%;
   width: 6em;
   height: 6em;
+  transition: background-color 1s;
   box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
   &:hover {
     background: var(--blue-a);
