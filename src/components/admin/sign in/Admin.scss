@@ -1,0 +1,60 @@
+.admin-wrapper {
+  margin: 0 auto;
+  max-width: 45em;
+  padding: 2.5em 0;
+  font: 100%/1.5 Nunito, sans-serif;
+}
+.admin-container {
+  position: relative;
+  margin: 1.5rem;
+  text-align: center;
+}
+.admin-title {
+  font-size: 1.5em;
+}
+.form-wrapper {
+  border: thin solid hsla(0, 0%, 50%, 0.4);
+  border-radius: 1em;
+  margin: auto;
+  max-width: 30em;
+}
+.email,
+.password,
+.input,
+.textarea {
+  margin: 1.5em auto;
+  display: block;
+  max-width: 20em;
+  padding: 0.75em;
+  font-size: 0.9rem;
+  border: thin solid #ccc;
+  border-radius: 1em;
+  color: #000;
+  box-sizing: border-box;
+  box-shadow: 28px 28px 40px #ebebeb, -28px -28px 40px #ffffff;
+  font: 100%/1.5 Nunito, sans-serif;
+  outline: none;
+  resize: none;
+}
+.login-button {
+  outline: none;
+  --blue: #1e90ff;
+  --blue-a: rgba(30, 144, 255, 0.1);
+  display: block;
+  margin: 2em auto;
+  max-width: 25em;
+  padding: 1em 5em;
+  border: thin solid #ccc;
+  border-radius: 1em;
+  color: var(--blue);
+  font: inherit;
+  font-size: 0.85em;
+  box-sizing: border-box;
+  box-shadow: 28px 28px 40px #ebebeb, -28px -28px 40px #ffffff;
+  background: inherit;
+  cursor: pointer;
+  &:hover {
+    background: var(--blue-a);
+    color: var(--blue);
+  }
+}

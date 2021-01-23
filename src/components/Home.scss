@@ -1,0 +1,41 @@
+.link-to-panel {
+  display: inline;
+  cursor: default;
+  text-align: center;
+  font-size: 1.25em;
+  opacity: 0.6;
+  text-decoration: none;
+  cursor: pointer;
+  width: auto;
+  max-width: 10em;
+  margin: 2em;
+}
+.panel-outline {
+  display: inline-block;
+  border: thin solid hsla(0, 0%, 50%, 0.4);
+  padding: 0.5em 1em;
+  border-radius: 1em;
+  color: #1e90ff;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0.5em;
+  &:hover {
+    background: rgba(30, 144, 255, 0.1);
+    transition-duration: 0.1s;
+  }
+}
+.admin-button-wrapper {
+  margin: 0 auto;
+  max-width: 45em;
+  padding: 2.5em 0;
+  font: 100%/1.5 Nunito, sans-serif;
+}
+.admin-button-container {
+  position: relative;
+  margin: 1.5rem;
+  align-items: center;
+  text-align: center;
+}

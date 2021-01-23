@@ -1,0 +1,13 @@
+{
+  "storage": {
+    "rules": "storage.rules"
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "hosting" : {
+    "public": "public",
+    "site": "ielrobotics.github.io"
+  }
+}

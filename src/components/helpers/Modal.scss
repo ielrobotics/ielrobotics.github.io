@@ -1,0 +1,53 @@
+.modal {
+  position: fixed;
+  top: 25em;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  background-color: white;
+  margin: auto 50%;
+  max-width: 45em;
+  width: 45em;
+  @media (max-width: 850px) {
+    max-width: 23em;
+    width: 23em;
+  }
+  border-radius: 1em;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.226);
+}
+
+.close-modal-button{
+  --blue: #1e90ff;
+  --blue-a: rgba(30,144,255,.1);
+    display: inline-block;
+    font-weight: 700;
+    font-size: 1em;
+    color: var(--blue);
+    padding: .5em 1.5em;
+    border:0;
+    border-radius: 0.5em;
+    transition: background 0.35s,color 0.35s,box-shadow 0.35s;
+    box-shadow: inset 0 0 0 .1em rgba(30,144,255,.1), 0 0 0 0 transparent;
+    text-decoration: none;
+    background-color: transparent;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    &:hover{
+        background: var(--blue-a);
+        color: var(--blue);
+        box-shadow: inset 0 0 0 .1em transparent,0 0 0 .25em var(--blue-a);
+    }
+  margin: -0.1em 0 0 calc(100% - 3.5em);
+  @media(max-width: 850px){
+    margin: -0.1em 0 0 19.5em;
+  }
+
+}
+
